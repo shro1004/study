@@ -7,8 +7,8 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 @EnableJpaAuditing
-@EnableAutoConfiguration(exclude= {DataSourceAutoConfiguration.class})
 @SpringBootApplication
+@EnableAutoConfiguration(exclude= {DataSourceAutoConfiguration.class})
 public class Application {
 
 	public static void main(String[] args) {
